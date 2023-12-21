@@ -1,0 +1,87 @@
+html {
+    position: relative;
+}
+
+
+
+.header{
+    background-color: #1b9c85;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0 0 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+.header a {
+    color: white;
+}
+
+.navbar-brand{
+    font-weight: bold !important;
+  
+}
+.container-fluid a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200px;
+
+}
+
+.nav-item a{
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.nav-item a:hover{
+    color: salmon;
+
+}
+
+
+.container2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    
+}
+
+.caro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    margin: auto;
+
+   
+}
+.caro img {
+    margin: auto;
+    height: 250px;
+    
+}
+
+.caro img:hover {
+    height: 450px;
+    transition: all 2s ease-in-out;
+}
+
+
+
+
+
+
+.footer{
+    background-color: #1b9c85;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+
+

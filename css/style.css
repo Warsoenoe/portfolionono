@@ -1,0 +1,117 @@
+html {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+
+
+.header{
+    background-color: #1b9c85;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0 0 3px 4px rgba(0, 0, 0, 0.3);
+}
+.header a {
+    color: white;
+}
+
+.navbar-brand{
+    font-weight: bold !important;
+  
+}
+.container-fluid a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200px;
+
+}
+
+.nav-item a{
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.nav-item a:hover{
+    color: salmon;
+}
+
+/*akhir navbar*/
+
+/*awal hero*/
+.hero{
+    background-color: #eeeeee;
+    text-align: center;
+    margin-top: 55px;
+    height: 550px;
+    padding: 50px;
+	margin-bottom: 5px;
+    width: 100%;
+}
+
+.hero img {
+	height: 300px;
+	width: 300px;
+    border: 3px solid salmon;
+	border-radius: 150px;
+}
+.hero h1{
+    font-size: 70px;
+    font-weight: bold;
+    
+}
+.hero p{
+    font-size: 25px;
+}
+.cv a {
+    background-color: #1b9c85;
+    color: #ffffff;
+}
+.cv a:hover{
+    background-color: #1b9c85;
+    color: #ffffff;
+    transform: scale(1.1);
+    transition: 0.9s;
+}
+
+/*akhir hero*/
+
+/*awal visi-misi*/
+.container2 {
+	background-color: #eeeeee;
+	margin: 0 auto;
+	padding: 30px;
+	box-shadow: 0 0 4px 2px salmon;
+	border-radius: 5px;
+    text-align: center;
+    height: 300px;
+    
+}
+
+
+.container2 p {
+    margin-top: 15px;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/*akhir visi-misi*/
+
+
+
+.footer{
+    background-color: #1b9c85;
+    margin-top: 3px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 100%;
+    
+}
+
+
+

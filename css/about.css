@@ -1,0 +1,182 @@
+html {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+
+
+.header{
+    background-color: #1b9c85;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0 0 3px 4px rgba(0, 0, 0, 0.3);
+}
+.header a {
+    color: white;
+}
+
+.navbar-brand{
+    font-weight: bold !important;
+  
+}
+.container-fluid a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200px;
+
+}
+
+.nav-item a{
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.nav-item a:hover{
+    color: salmon;
+
+}
+
+/*awal about*/
+
+.container2 {
+    background-color: #eee;
+    margin-top: 50px;
+    border-radius: 15px;
+    padding-bottom: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.container2 h1 {
+    text-align: justify;
+    color: salmon;
+    font-size: 50px;
+    margin-top: 68px;
+    text-decoration: underline;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+
+.ttg {
+    margin-left: 50px;
+    text-align: justify;
+    margin-right: 50px;
+}
+
+
+.cardd {
+    display: flex;
+    
+}
+.ttg1 {
+    margin-left: 50px;
+    text-align: justify;
+    flex: 1;
+    order: 1;
+}
+
+.edu {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    flex: 2;
+    order: 2;
+}
+
+@media screen and ( max-width: 900px ){
+    .container2 {
+        width: auto;
+        float: none;
+        margin: 0;
+    }
+    
+}
+
+/*akhir about*/
+
+
+
+/*awal galeri*/
+.daftar{
+    background-color: #eee;
+    box-shadow: 0 0 4px 2px salmon;
+    margin-top: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    margin-bottom: 55px;
+}
+
+.container3 { 
+    padding: 25px;
+    width: 100%;
+}
+
+
+.pahlawan{
+    height: 475px;
+    width: 345px;
+    background-color:#eee;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 3px 2px 5px gray;
+    border-radius: 15px;
+
+}
+.pahlawan img{
+    height: 300px;
+    width: 345px;
+    border-radius: 15px;
+}
+.pahlawan button{
+    text-decoration: none;
+    background-color:  rgb(18, 159, 145);
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    border: 2px solid salmon;
+    border-radius: 3px;
+    color: rgb(246, 250, 250);
+    margin-left: 120px;
+    
+}
+.pahlawan p{
+    text-align: center;
+}
+.pahlawan button:hover{
+    color: rgb(18, 159, 145);
+    background-color:  rgb(246, 250, 250);
+    border: 2px solid rgb(18, 159, 145);
+}
+
+/*akhir galeri*/
+
+
+
+
+
+.footer{
+    background-color: #1b9c85;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+
+

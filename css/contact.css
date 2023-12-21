@@ -1,0 +1,100 @@
+html,body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header{
+    background-color: #1b9c85;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0 0 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+.header a {
+    color: white;
+}
+
+.navbar-brand{
+    font-weight: bold !important;
+  
+}
+.container-fluid a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200px;
+
+}
+
+.nav-item a{
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.nav-item a:hover{
+    color: salmon;
+
+}
+
+
+.contact {
+    height: 65px;
+    width: 100%;
+    background-color: #eee;
+}
+
+
+#maps {
+    display: flex;
+    justify-content: center;
+   
+}
+.bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boxz {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    height: 150px;
+    background-color: #eee;
+
+}
+
+.box {
+    flex: 2;
+    order: 1;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.box2 {
+    flex: 2;
+    order: 2;
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+
+
+.footer{
+    background-color: #1b9c85;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+
+

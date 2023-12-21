@@ -1,0 +1,131 @@
+
+
+
+
+.header {
+    background-color: #1b9c85;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0 0 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+.header a {
+    color: white;
+}
+
+.navbar-brand{
+    font-weight: bold !important;
+}
+.container-fluid a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200px;
+
+}
+
+.nav-item a{
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.nav-item a:hover{
+    color: salmon;
+
+}
+
+
+/*awal galeri*/
+.daftar{
+    background-color: #eee;
+    box-shadow: 0 0 4px 2px salmon;
+    margin-top: 70px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    margin-bottom: 75px;
+}
+
+
+
+.page1{
+    height: 300px;
+    width: 550px;
+    background-color:#eee;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 3px 2px 5px gray;
+    border-radius: 15px;
+
+}
+
+.page2{
+    height: 300px;
+    width: 550px;
+    background-color:#eee;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 3px 2px 5px gray;
+    border-radius: 15px;
+
+}
+
+.page3{
+    height: 300px;
+    width: 550px;
+    background-color:#eee;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 3px 2px 5px gray;
+    border-radius: 15px;
+
+}
+
+
+.port img {
+    height: 300px;
+    width: 550px;
+    border-radius: 15px;
+    
+}
+
+.page2 img{
+    height: 300px;
+    width: 550px;
+    border-radius: 15px;
+}
+
+.page3 img{
+    height: 300px;
+    width: 550px;
+    border-radius: 15px;
+}
+
+
+/*akhir galeri*/
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #1b9c85;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+
+
